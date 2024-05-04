@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## `npm i @xenova/transformers`
 
+Builds dependencies to run Transformers.js, which will be needed to run the face parsing API (https://huggingface.co/jonathandinu/face-parsing) 
 ## Available Scripts
 
 In the project directory, you can run:
