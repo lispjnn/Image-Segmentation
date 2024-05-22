@@ -1,11 +1,9 @@
-import { useEffect, useInsertionEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js';
-
 import { Auth, ThemeSupa } from '@supabase/auth-ui-react';
-
+import { v4 as uuidv4 } from 'uuid';
+import { pipeline, env } from '@xenova/transformers';
 import './App.css';
-import {v4 as uuidv4} from 'uuid';
-import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.14.0";
 // Skip local model check
 env.allowLocalModels = false;
 
